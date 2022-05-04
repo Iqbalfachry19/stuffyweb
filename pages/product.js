@@ -11,6 +11,7 @@ function product() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Header />
+      <h1 className="flex justify-center pt-10 text-2xl">Our Product</h1>
     </div>
   );
 }
