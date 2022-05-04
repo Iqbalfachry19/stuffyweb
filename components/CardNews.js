@@ -1,9 +1,14 @@
 import Image from 'next/image';
 import React from 'react';
+import { useRouter } from 'next/router';
 
 function CardNews() {
+  const router = useRouter();
   return (
-    <div className="bg-teal-200 rounded-lg flex justify-center flex-col m-10 items-center">
+    <div
+      className="bg-teal-200 rounded-lg flex justify-center flex-col m-10 items-center  cursor-pointer"
+      onClick={() => router.push('/blog/news')}
+    >
       <Image
         src="https://sales.kencanaindonesia.co.id/wp-content/uploads/2021/04/placeholder-3.png"
         alt=""
