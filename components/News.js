@@ -1,5 +1,5 @@
 import React from 'react';
-import CardNews from './cardNews';
+import CardNews from './CardNews';
 
 function News() {
   return (
