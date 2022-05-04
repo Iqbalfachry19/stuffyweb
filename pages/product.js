@@ -1,18 +1,18 @@
 import Head from 'next/head';
-import Banner from '../components/Banner';
+import React from 'react';
 import Header from '../components/Header';
 
-export default function Home() {
+function product() {
   return (
-    <div className=" max-w-full mx-auto">
+    <div>
       <Head>
         <title>Stuffy - Share Stuff Application</title>
 
         <link rel="icon" href="/favicon.ico" />
       </Head>
-
       <Header />
-      <Banner />
     </div>
   );
 }
+
+export default product;

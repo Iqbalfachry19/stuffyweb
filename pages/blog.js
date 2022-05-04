@@ -1,18 +1,20 @@
 import Head from 'next/head';
-import Banner from '../components/Banner';
+import React from 'react';
 import Header from '../components/Header';
-
-export default function Home() {
+import News from '../components/News';
+function blog() {
   return (
-    <div className=" max-w-full mx-auto">
+    <div>
       <Head>
         <title>Stuffy - Share Stuff Application</title>
 
         <link rel="icon" href="/favicon.ico" />
       </Head>
-
       <Header />
-      <Banner />
+      <h1 className="flex justify-center pt-10 text-2xl">News Article</h1>
+      <News />
     </div>
   );
 }
+
+export default blog;
