@@ -4,7 +4,10 @@ import CardNews from './CardNews';
 function News() {
   return (
     <div className="grid grid-cols-4 place-items-center pt-10">
-      <CardNews onClick={() => router.push('/blog/news')} />
+      <CardNews
+        className="cursor-pointer"
+        onClick={() => router.push('/blog/news')}
+      />
       <CardNews />
       <CardNews />
       <CardNews />
