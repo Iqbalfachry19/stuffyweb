@@ -11,7 +11,6 @@ function News() {
       </Head>
       <Header />
       <h1 className="flex justify-center pt-10 text-2xl">Title</h1>
-      <News />
     </div>
   );
 }
