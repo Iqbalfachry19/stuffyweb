@@ -1,6 +1,6 @@
 import React from 'react';
 import CardNews from './CardNews';
-
+import { useRouter } from 'next/router';
 function News() {
   const router = useRouter();
   return (
