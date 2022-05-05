@@ -12,7 +12,7 @@ function product() {
       </Head>
       <Header />
       <h1 className="flex justify-center pt-10 text-2xl">Our Product</h1>
-      <h2 className="flex justify-center pt-10 text-xl">What is Stuffy</h2>
+      <h2 className="flex justify-center pt-10 text-xl">What is Stuffy?</h2>
       <h2 className="flex justify-center pt-10 text-xl">
         Stuff is an app for sharing stuff that have been waste
       </h2>
