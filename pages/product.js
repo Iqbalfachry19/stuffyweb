@@ -11,7 +11,10 @@ function product() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Header />
-      <h1 className="flex justify-center pt-10 text-2xl">Our Product</h1>
+      <div className="bg-teal-200">
+        <h1 className="flex justify-center pt-10 text-2xl">Our Product</h1>
+      </div>
+
       <h2 className="flex justify-center pt-10 text-xl">What is Stuffy?</h2>
       <h2 className="flex justify-center pt-10 text-xl">
         Stuffy is an app for sharing stuff that have been waste
