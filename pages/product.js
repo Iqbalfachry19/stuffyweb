@@ -14,7 +14,7 @@ function product() {
       <h1 className="flex justify-center pt-10 text-2xl">Our Product</h1>
       <h2 className="flex justify-center pt-10 text-xl">What is Stuffy?</h2>
       <h2 className="flex justify-center pt-10 text-xl">
-        Stuff is an app for sharing stuff that have been waste
+        Stuffy is an app for sharing stuff that have been waste
       </h2>
       <div className="flex justify-center">
         <button className="flex items-center bg-white p-2 mt-10 rounded-lg font-extrabold shadow-xl">
